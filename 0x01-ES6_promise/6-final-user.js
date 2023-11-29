@@ -14,8 +14,9 @@ import uploadPhoto from './5-photo-reject';
  * @param {string} lastName
  * The name of the photo file to be uploaded.
  * @param {string} fileName
- * A Promise that resolves with an array of objects, each containing the status
- * ('fulfilled' or 'rejected') and the value or error message of each operation.
+ * A Promise that resolves with an array of objects, each
+ * containing the status('fulfilled' or 'rejected') and the
+ * value or error message of each operation.
  * @returns {Promise} 
  */
 export default function handleProfileSignup(firstName, lastName, fileName) {
