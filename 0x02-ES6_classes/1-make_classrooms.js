@@ -1,9 +1,11 @@
 import ClassRoom from './0-classroom';
 
 /**
- * Initializes an array of ClassRoom instances with predefined maximum student capacities.
+ * Initializes an array of ClassRoom instances with predefined
+ * maximum student capacities.
  *
- * An array of ClassRoom instances with different maximum student capacities.
+ * An array of ClassRoom instances with different maximum
+ * student capacities.
  * @returns {Array}
  */
 export default function initializeRooms() {
