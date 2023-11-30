@@ -7,7 +7,7 @@ export default class Pricing {
     this.currency = currency;
   }
 
-  // amount
+  // The numeric value representing the amount.
   get amount() {
     return this._amount;
   }
@@ -16,7 +16,7 @@ export default class Pricing {
     this._amount = value;
   }
 
-  // currency
+  // The currency associated with the pricing.
   get currency() {
     return this._currency;
   }
