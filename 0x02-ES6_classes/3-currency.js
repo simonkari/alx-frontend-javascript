@@ -3,10 +3,13 @@
  */
 export default class Currency {
   /**
-   * Creates a new instance of the Currency class with the specified code and name.
+   * Creates a new instance of the Currency class with
+   * the specified code and name.
    *
-   * @param {string} code - The code representing the currency (e.g., USD).
-   * @param {string} name - The name of the currency (e.g., US Dollar).
+   * The code representing the currency (e.g., USD).
+   * @param {string} code
+   * The name of the currency (e.g., US Dollar).
+   * @param {string} name
    */
   constructor(code, name) {
     /**
