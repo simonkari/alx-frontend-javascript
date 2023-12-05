@@ -1,6 +1,6 @@
 export default function cleanSet(set, startString) {
-  let text = '';  // The formatted text result.
-  const array = [];  // An array to store cleaned elements.
+  let text = '';
+  const array = [];
 
   // Check if startString is provided and is a valid string.
   if (startString && typeof startString === 'string') {
@@ -12,11 +12,9 @@ export default function cleanSet(set, startString) {
         array.push(element.slice(startString.length));
       }
     }
-
-    // Join the cleaned elements using '-' as a separator to form the final text result.
+     // Join the cleaned elements using '-' as a separator to form the final text result.
     text = array.join('-');
   }
-
   // Return the formatted text result.
   return text;
 }
